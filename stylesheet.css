@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  
+
+  .container {
+    /* max-width: 1170px; */
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  /* CSS header */
+
+  header {
+    /* height: 65px; */
+    width: 100%;
+    /*background-color: rgba(7, 180, 214, 0.9);*/
+    /* position :fixed; */
+    top: 0;
+    z-index: 0; 
+  }
+
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+
+  input {
+    width:400px;
+    margin-top:10px;
+    margin-bottom:30px;
+    margin-right:30px;
+    padding:20px;
+    font-size:18px;
+    border:1px solid #dee7ec;
+  }
+  
+  /* CSS top wrapper */
+
+  .top-wrapper {
+    padding: 180px 0 280px 0;
+    background-image: url(anders-wideskott-_QnPkc4C6E4-unsplash.jpg);
+    background-size:auto;
+    /*border-radius: 25px;*/
+    color: yellow;
+    text-align: center;
+    animation-name: example;
+      animation-duration: 8s;
+      animation-iteration-count: infinite;
+    
+  }
+
+  @keyframes example {
+      0% {background-image: url(anders-wideskott-_QnPkc4C6E4-unsplash.jpg);}
+      25% {background-image: url(indiana-dunes-state-park-1848559_1920.jpg);}
+      50% {background-image: url(hallstatt-3609863_1920.jpg);}
+      100% {background-image: url(iceland-2111811_1920.jpg);}
+  }
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+
+  /* CSS form wrapper */
+
+  .form-wrapper {
+    height: 200px;
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+
+  .form {
+    float: left;
+    width: 30%;
+    text-align:center;
+  }
+
+  .form-type {
+    position: relative;
+    margin-right:30px;
+    margin-left:30px;
+  }
+
+  .form-type input, select{
+    width:100%;
+    height:50px;
+    margin-top:10px;
+    padding:10px; 
+    font-size:14px;
+    border:1px solid #dee7ec;
+
+  }
+
+  .btnsubmit {
+      background-color: teal;
+      color:#f7f7f7;
+  }
+
+  /* Destination */
+  .lesson-wrapper {
+    padding-bottom: 80px;
+    padding-top:20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    /* height:500px; */
+  }
+
+  heading {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+
+  .lesson-icon img{
+      width:250px;
+      height:180px;
+      border-radius: 25px;
+  }
+
+  .lesson-icon img:hover{
+    opacity: 0.7;
+    cursor:pointer;
+  }
+
+  .lesson-icon h3	{
+	color:black;
+	font-family:"arial";
+  }
+  
+
+  footer img {
+    width: 125px;
+  }
+    
+  footer p {
+    color: #f7f7f7;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: cadetblue;
+    height:200px;
+  }
+
+  .footer-right {
+    float: right;
+    margin-right: -25px;
+  }
+
+  .footer-left {
+    float: left;
+  }
+
+  li {
+    list-style: none;
+    
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .footer-right li{
+    padding-bottom:20px;
+    margin-right: 30px;
+  }
+
+  .footer-right a{
+    color:#f7f7f7;
+    font-size: 14px;
+  }
+
+  .clear {
+    clear:left;
+    text-align:left;
+	border-top:5px solid #dee7ec;
+  }
+  
+  .btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: left;
+ }
+ 
+ .message {
+  padding: 15px 40px;
+  background-color: #5F9EA0;
+  cursor: pointer;
+  box-shadow: 0 7px #008080;
+}
+
+ .message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+ .heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+ 
