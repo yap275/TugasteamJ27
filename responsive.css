@@ -1,0 +1,46 @@
+/* smartphone */
+
+@media all and (max-width: 670px) {
+    
+    .lesson {
+        width:100%;
+        margin-bottom: 50px;
+        margin-right:50px;
+    }
+
+    .lesson-icon img{
+        width:280px;
+        height:auto; 
+        border-radius: 25px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .form-wrapper {
+        height:400px;
+    }
+
+    input {
+        width:200px;
+        margin-top:10px;
+        margin-bottom:30px;
+        margin-right:30px;
+        padding:10px;
+        font-size:12px;
+        border:1px solid #dee7ec;
+      }
+}
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .lesson {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+
+    
+
+    
+}
